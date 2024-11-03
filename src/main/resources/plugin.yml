@@ -1,0 +1,7 @@
+name: PluginHider
+version: '1.0.0'
+main: com.spectrasonic.pluginHider.Main
+api-version: '1.21'
+prefix: PluginHider
+authors: [ Spectrasonic ]
+description: Hides The plugin Command
