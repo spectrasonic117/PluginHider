@@ -1,5 +1,5 @@
 name: PluginHider
-version: '1.0.1-SNAPSHOT'
+version: '${version}'
 main: com.spectrasonic.pluginHider.Main
 api-version: '1.21'
 prefix: PluginHider

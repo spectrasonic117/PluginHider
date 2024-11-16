@@ -7,9 +7,6 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerCommandPreprocessEvent;
 import org.bukkit.event.server.ServerCommandEvent;
 
-/**
- * Listens for command execution attempts and blocks unauthorized access.
- */
 @RequiredArgsConstructor
 public class CommandListener implements Listener {
     private final Main plugin;

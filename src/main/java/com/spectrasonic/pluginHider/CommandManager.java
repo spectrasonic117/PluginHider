@@ -5,9 +5,6 @@ import org.bukkit.command.Command;
 
 import java.util.Set;
 
-/**
- * Manages the blocked commands and provides utility methods for command handling.
- */
 @Getter
 public class CommandManager {
     private final Main plugin;
@@ -21,7 +18,7 @@ public class CommandManager {
             "ver",
             "minecraft:ver",
             "help",
-            "minecraft:help"
+            "minecraft:help",
             "minecraft:me",
             "me",
             "?"
@@ -33,7 +30,6 @@ public class CommandManager {
 
     /**
      * Checks if a command should be blocked.
-     *
      * @param command The command to check
      * @return true if the command should be blocked
      */
