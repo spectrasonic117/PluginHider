@@ -19,7 +19,12 @@ public class CommandManager {
             "version",
             "minecraft:version",
             "ver",
-            "minecraft:ver"
+            "minecraft:ver",
+            "help",
+            "minecraft:help"
+            "minecraft:me",
+            "me",
+            "?"
     );
 
     public CommandManager(Main plugin) {

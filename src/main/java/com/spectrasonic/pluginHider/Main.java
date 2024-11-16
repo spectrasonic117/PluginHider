@@ -21,7 +21,10 @@ public final class Main extends JavaPlugin {
 
         // Register event listeners
         getServer().getPluginManager().registerEvents(new CommandListener(this), this);
+
+
         MessageUtils.sendStartupMessage(this);
+        MessageUtils.mcQueenStartup(this);
     }
 
     @Override
