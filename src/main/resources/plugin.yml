@@ -3,5 +3,17 @@ version: '${version}'
 main: com.spectrasonic.pluginHider.Main
 api-version: '1.21'
 prefix: PluginHider
-authors: [ Spectrasonic ]
+authors:
+  - Spectrasonic
 description: Hides The plugin Command
+commands:
+  pluginhider:
+    description: Reloads the plugin configuration
+    usage: /pluginhider reload
+    aliases:
+      - ph
+    permission: pluginhider.reload
+permissions:
+  pluginhider.reload:
+    description: Allows the user to reload the plugin configuration
+    default: op

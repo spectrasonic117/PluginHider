@@ -1,0 +1,17 @@
+# This is the configuration file for PluginHider
+# Plugin made by Spectrasonic
+
+command_hider:
+  - minecraft:plugins
+  - minecraft:pl
+  - plugins
+  - pl
+  - version
+  - minecraft:version
+  - ver
+  - minecraft:ver
+  - help
+  - minecraft:help
+  - minecraft:me
+  - me
+  - ?
